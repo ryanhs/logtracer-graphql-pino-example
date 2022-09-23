@@ -5,8 +5,13 @@
   "license": "MIT",
   "dependencies": {
     "cls-rtracer": "^2.6.2",
-    "graphql-koa-scripts": "^2.0.4",
+    "graphql-koa-scripts": "^2.0.5",
+    "nodemon": "^2.0.20",
     "pino": "^8.6.0",
-    "pino-pretty": "^9.1.0"
+    "pino-pretty": "^9.1.0",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.js"
   }
 }
